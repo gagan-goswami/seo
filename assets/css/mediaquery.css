@@ -1,0 +1,62 @@
+@media (max-width: 992px) {
+  .hero-section .hero-img {
+    display: none;
+  }
+
+  .about-section .about-item {
+    margin-bottom: 90px;
+  }
+
+  .service-section .section-title,
+  .Generating .section-title,
+  .pricing .section-title,
+  .visit .section-title,
+  .testimonial-section .section-title,
+  .tips-trick .section-title {
+    margin: 0px 0px 45px 0px;
+  }
+
+  .header .modal-backdrop {
+    --bs-backdrop-zindex: 0;
+  }
+
+  .header .nav-link:before {
+    display: none;
+  }
+
+  .header .nav-link:hover {
+    color: var(--primary);
+    transition: ease-in-out 0.5s;
+  }
+
+  .hero-section .hero-caption {
+    padding: 0px 0px;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero-section .hero-caption h1 {
+    font-size: 40px;
+  }
+
+  .we-creat .we-creat-item h2 {
+    font-size: 40px;
+  }
+
+  .service-section .section-title h2,
+  .Generating .section-title h2,
+  .pricing .section-title h2,
+  .visit .section-title h2,
+  .testimonial-section .section-title h2,
+  .tips-trick .section-title h2 {
+    font-size: 30px;
+  }
+
+  .Generating .Generating-item {
+    flex-direction: column;
+  }
+
+  .Generating .Generating-contain {
+    padding: 20px 0px;
+  }
+}
